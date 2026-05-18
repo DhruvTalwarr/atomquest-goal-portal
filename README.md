@@ -4,7 +4,13 @@ An end-to-end browser-based Goal Setting and Tracking Portal built for the AtomQ
 
 The portal covers employee goal creation, manager approval, quarterly achievement tracking, admin governance, reporting, auditability, escalation, and integration-ready workflows.
 
-## Live Local Demo
+## Live Demo
+
+```text
+https://files-mentioned-by-the-user-6a06fcd.vercel.app
+```
+
+## Run Locally
 
 ```powershell
 npm start
