@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="720" viewBox="0 0 1120 720" role="img" aria-labelledby="title desc">
+  <title id="title">AtomQuest Goal Portal Architecture</title>
+  <desc id="desc">Architecture diagram for the local demo web app.</desc>
+  <rect width="1120" height="720" fill="#f4f7fb"/>
+  <text x="56" y="66" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#18202a">AtomQuest Goal Portal Architecture</text>
+  <text x="56" y="96" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#657385">Cost-optimized demo stack for browser-based goal setting, approvals, check-ins, reporting, and audit visibility.</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#166bff"/>
+    </marker>
+  </defs>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="56" y="152" width="220" height="88" rx="8" fill="#ffffff" stroke="#d8dee8"/>
+    <text x="86" y="188" font-size="18" font-weight="700" fill="#18202a">Employee</text>
+    <text x="86" y="214" font-size="13" fill="#657385">Goals and achievements</text>
+
+    <rect x="56" y="300" width="220" height="88" rx="8" fill="#ffffff" stroke="#d8dee8"/>
+    <text x="86" y="336" font-size="18" font-weight="700" fill="#18202a">Manager L1</text>
+    <text x="86" y="362" font-size="13" fill="#657385">Approvals and check-ins</text>
+
+    <rect x="56" y="448" width="220" height="88" rx="8" fill="#ffffff" stroke="#d8dee8"/>
+    <text x="86" y="484" font-size="18" font-weight="700" fill="#18202a">Admin / HR</text>
+    <text x="86" y="510" font-size="13" fill="#657385">Cycles, reports, audit</text>
+
+    <rect x="410" y="210" width="300" height="256" rx="8" fill="#ffffff" stroke="#166bff" stroke-width="2"/>
+    <text x="448" y="250" font-size="20" font-weight="700" fill="#18202a">Browser Web Portal</text>
+    <text x="448" y="280" font-size="14" fill="#657385">Vanilla HTML, CSS, JavaScript</text>
+    <line x1="448" y1="306" x2="672" y2="306" stroke="#d8dee8"/>
+    <text x="448" y="336" font-size="14" fill="#18202a">Role-aware screens</text>
+    <text x="448" y="366" font-size="14" fill="#18202a">Goal validation and locking</text>
+    <text x="448" y="396" font-size="14" fill="#18202a">Progress score engine</text>
+    <text x="448" y="426" font-size="14" fill="#18202a">CSV export and audit views</text>
+
+    <rect x="838" y="182" width="226" height="112" rx="8" fill="#ffffff" stroke="#d8dee8"/>
+    <text x="872" y="220" font-size="18" font-weight="700" fill="#18202a">Node Static Server</text>
+    <text x="872" y="248" font-size="13" fill="#657385">Serves local assets</text>
+    <text x="872" y="272" font-size="13" fill="#657385">No backend cost for demo</text>
+
+    <rect x="838" y="360" width="226" height="112" rx="8" fill="#ffffff" stroke="#d8dee8"/>
+    <text x="872" y="398" font-size="18" font-weight="700" fill="#18202a">localStorage</text>
+    <text x="872" y="426" font-size="13" fill="#657385">Goals, check-ins, audit</text>
+    <text x="872" y="450" font-size="13" fill="#657385">Resettable seeded data</text>
+
+    <rect x="410" y="554" width="300" height="82" rx="8" fill="#e8f0ff" stroke="#b8c9f5"/>
+    <text x="448" y="590" font-size="18" font-weight="700" fill="#18202a">Future Enterprise Layer</text>
+    <text x="448" y="616" font-size="13" fill="#657385">Entra ID, email, Teams, database, hosted API</text>
+
+    <path d="M276 196 H392" stroke="#166bff" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+    <path d="M276 344 H392" stroke="#166bff" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+    <path d="M276 492 C330 492,342 338,392 338" stroke="#166bff" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+    <path d="M710 274 H820" stroke="#166bff" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+    <path d="M710 416 H820" stroke="#166bff" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+    <path d="M560 466 V536" stroke="#166bff" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+
+    <text x="318" y="176" font-size="12" fill="#657385">Role switcher</text>
+    <text x="728" y="254" font-size="12" fill="#657385">HTTP</text>
+    <text x="728" y="396" font-size="12" fill="#657385">Client data</text>
+  </g>
+</svg>

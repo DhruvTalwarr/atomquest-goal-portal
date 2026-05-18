@@ -1,0 +1,18 @@
+{
+  "name": "atomquest-goal-portal",
+  "version": "1.0.0",
+  "description": "End-to-end Goal Setting and Tracking Portal demo for AtomQuest Hackathon 1.0.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check app.js && node --check server.js"
+  },
+  "keywords": [
+    "goal-tracking",
+    "performance-management",
+    "hackathon",
+    "hr-portal"
+  ],
+  "author": "DhruvTalwarr",
+  "license": "MIT"
+}
